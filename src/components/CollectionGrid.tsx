@@ -4,10 +4,10 @@ import product3 from "@/assets/product-3.jpg";
 import product4 from "@/assets/product-4.jpg";
 
 const products = [
-  { image: product1, name: "Blusa de Seda Dorada", category: "Blusas", price: "$189" },
-  { image: product2, name: "Abrigo Chocolate Vintage", category: "Abrigos", price: "$345" },
-  { image: product3, name: "Vestido de Noche Champagne", category: "Vestidos", price: "$420" },
-  { image: product4, name: "Suéter Crema con Perlas", category: "Tejidos", price: "$215" },
+  { image: product1, name: "Blusa de Seda Dorada", category: "Blusas", price: "S/. 50" },
+  { image: product2, name: "Abrigo Chocolate Vintage", category: "Abrigos", price: "S/. 150" },
+  { image: product3, name: "Vestido de Noche Champagne", category: "Vestidos", price: "S/. 120" },
+  { image: product4, name: "Suéter Crema con Perlas", category: "Tejidos", price: "S/. 110" },
 ];
 
 const CollectionGrid = () => {

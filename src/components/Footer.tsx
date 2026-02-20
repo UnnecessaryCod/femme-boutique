@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Mail } from "lucide-react";
+
 
 const Footer = () => {
   return (
@@ -17,14 +17,26 @@ const Footer = () => {
 
           {/* Social */}
           <div className="flex items-center gap-6 mb-8">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300" aria-label="Instagram">
-              <Instagram size={20} strokeWidth={1.5} />
-            </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300" aria-label="Facebook">
-              <Facebook size={20} strokeWidth={1.5} />
-            </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300" aria-label="Email">
-              <Mail size={20} strokeWidth={1.5} />
+            <a
+              href="https://www.tiktok.com/@bea26287?_r=1&_t=ZS-944GhLDu0r1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              aria-label="TikTok"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+              </svg>
             </a>
           </div>
 
