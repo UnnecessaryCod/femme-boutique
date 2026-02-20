@@ -13,7 +13,7 @@ const CtaSection = () => {
         </p>
         <a
 
-          className="inline-block bg-gold-gradient px-12 py-4 font-body text-sm tracking-[0.2em] uppercase text-primary-foreground hover:opacity-90 transition-opacity duration-300" href="https://web.whatsapp.com/send?l=es&phone=51938749288&text=Hola,%20me%20gustaron%20algunos%20dise%C3%B1os">
+          className="inline-block bg-gold-gradient px-12 py-4 font-body text-sm tracking-[0.2em] uppercase text-primary-foreground hover:opacity-90 transition-opacity duration-300" href="https://web.whatsapp.com/send?l=es&phone=51938749288">
 
           Comprar ahora
         </a>
